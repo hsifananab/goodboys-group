@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaTelegramPlane } from 'react-icons/fa';
 
 import FooterLogo from '../../assets/images/svg/footer-logo.svg';
@@ -12,11 +12,6 @@ const Footer = ({ id }) => {
       <h2 className="footer__title">контакты</h2>
       <img src={FooterLogo} alt="" />
       <ul className="footer__links">
-        <li>
-          <a href="https://instagram.com" target="_blank">
-            <AiOutlineInstagram />
-          </a>
-        </li>
         <li>
           <a href="https://wa.me/79810417404" target="_blank">
             <AiOutlineWhatsApp />
