@@ -1,0 +1,28 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 36px;
+  border: 1px solid #000000;
+
+  outline: none;
+
+  background-color: var(--colors-background);
+  color: var(--colors-white);
+  transition: all linear 0.2s;
+
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: var(--fs-l);
+
+  cursor: pointer;
+
+  padding-bottom: 4px;
+
+  &:hover {
+    background-color: var(--colors-accent);
+    box-shadow: inset 5px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

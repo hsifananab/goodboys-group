@@ -1,0 +1,39 @@
+.section {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  gap: 108px;
+
+  margin-bottom: 10px;
+
+  &__aside {
+    min-width: 172px;
+    background-color: var(--colors-background);
+
+    img {
+      padding-top: 50px;
+      padding-left: 35px;
+    }
+
+    h2 {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+
+      text-transform: uppercase;
+      color: var(--colors-white);
+      font-size: var(--fs-3xl);
+      font-weight: var(--fw-bold);
+
+      padding: 30px 55px 38px 30px;
+
+      max-height: 450px;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 976px;
+  }
+}

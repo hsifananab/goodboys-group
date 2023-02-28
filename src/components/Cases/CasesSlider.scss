@@ -1,0 +1,42 @@
+.cases {
+  display: flex;
+  gap: 43px;
+
+  &__slider {
+    max-width: 637px;
+  }
+
+  img {
+    object-fit: cover;
+    aspect-ratio: 3 / 2;
+    width: 100%;
+  }
+
+  &__content {
+    max-width: 297px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+    &-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      text-transform: capitalize;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+  }
+}

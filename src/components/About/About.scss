@@ -1,0 +1,49 @@
+.about {
+  height: 100%;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+
+  &__text {
+    max-width: 356px;
+
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-md);
+    line-height: 17px;
+    text-transform: uppercase;
+  }
+
+  &__download {
+    align-self: flex-end;
+    min-width: 206px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.12px;
+
+    position: absolute;
+    right: 50%;
+    bottom: 10px;
+
+    transform: translateX(50%);
+    transition: all linear 0.2s;
+
+    &:hover {
+      fill: var(--colors-accent);
+
+      button {
+        background-color: var(--colors-accent);
+        box-shadow: inset 5px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    img {
+      max-width: 86px;
+    }
+  }
+}

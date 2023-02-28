@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;700&display=swap');
+
+
+:root {
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* TYPOGRAPHY */
+  font-family: "Commissioner", sans-serif;
+
+  --fs-sm: 13px;
+  --fs-md: 14px;
+  --fs-l: 15px;
+  --fs-xl: 20px;
+  --fs-2xl: 40px;
+  --fs-3xl: 64px;
+
+  --fw-light: 400;
+  --fw-normal: 600;
+  --fw-bold: 700;
+
+  /* COLORS */
+  --colors-white: #ffffff;
+  --colors-black: #000000;
+  --colors-background: #1F1F1F;
+  --colors-accent: #CDA9F1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: var(--family);
+  color: var(--colors-text);
+  font-weight: var(--fw-light);
+}

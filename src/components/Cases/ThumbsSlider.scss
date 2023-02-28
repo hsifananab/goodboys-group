@@ -1,0 +1,56 @@
+.thumbs {
+  position: relative;
+
+  margin: 0 auto;
+  margin-bottom: 42px;
+
+  .swiper-slide {
+    cursor: pointer;
+  }
+
+  &__slide {
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+
+    p {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+
+      margin-bottom: 10px;
+    }
+
+    div {
+      width: 100%;
+
+      max-height: 207.25px;
+
+      background: rgba(205, 169, 241, 0.7);
+      mix-blend-mode: multiply;
+
+      transition: all ease 0.4s;
+
+      &:hover {
+        opacity: 1;
+        background: none;
+      }
+
+      img {
+        object-fit: cover;
+        aspect-ratio: 1;
+
+        width: 100%;
+        opacity: 0.3;
+
+        transition: all ease 0.4s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
