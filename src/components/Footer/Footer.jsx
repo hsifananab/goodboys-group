@@ -13,17 +13,17 @@ const Footer = ({ id }) => {
       <img src={FooterLogo} alt="" />
       <ul className="footer__links">
         <li>
-          <a href="https://instagram">
+          <a href="https://instagram.com" target="_blank">
             <AiOutlineInstagram />
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://wa.me/79810417404" target="_blank">
             <AiOutlineWhatsApp />
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://t.me/goodboysgr" target="_blank">
             <FaTelegramPlane />
           </a>
         </li>
