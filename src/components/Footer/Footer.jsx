@@ -25,7 +25,7 @@ const Footer = ({ id }) => {
         <li>
           <div>
             <a href="mailto:hello@goodboys.group">hello@goodboys.group</a>
-            <a href="tel:+79313909991">+ 7 (931) 390 99 91</a>
+            <a href="tel:+79810417404">+ 7 (981) 941 74 04</a>
           </div>
         </li>
       </ul>
